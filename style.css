@@ -1,0 +1,120 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body {
+    scroll-behavior: smooth;
+    font-family: cursive;
+    max-width: 100%;
+    background-image: url("https://www.canyon.com/dw/image/v2/BCML_PRD/on/demandware.static/-/Library-Sites-canyon-shared/default/dwdf93d3f3/images/plp/Ridestyle-canyon-downhill-02.jpg?sw=1920&sh=960&sm=cut");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+nav {
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 70px;
+    background-color: #134d30;
+    z-index: 1;
+}
+
+
+nav a {
+    color: snow;
+    text-decoration: none;
+    margin: auto 0px auto 0px;
+}
+
+main {
+    margin-top: 80px;
+}
+
+section {
+    scroll-margin-top: 85px;
+}
+
+
+.footer {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #134d30;
+    color: #E9F1FA;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.footer p,
+.footer a {
+    color: #E9F1FA;
+    padding: 5px;
+    text-decoration: none;
+}
+
+
+.socials {
+    display: inline-block;
+}
+
+
+.socials img {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s ease;
+}
+
+.socials img:hover {
+    transform: scale(1.2);
+}
+
+
+.footer-author {
+    text-align: center;
+    width: 100%;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.catalog article {
+    max-width: 400px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #e9f1fa86;
+}
+
+.catalog article:hover {
+    transform: scale(1.05);
+    transition: 0.5s ease;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.photo article {
+    max-width: 400px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.photo article:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
